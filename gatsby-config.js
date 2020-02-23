@@ -31,7 +31,7 @@ module.exports = {
       resolve: `gatsby-source-drupal`,
       options: {
         baseUrl: `https://dev-psit.pantheonsite.io/`,
-        apiBase: `api`, // optional, defaults to `jsonapi`
+        secret: `59a1357b-0119-4c8f-b00a-616f209e25d5`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
